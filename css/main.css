@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -14,8 +14,11 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+.container {
+    width: 100%;
+}
 
-.container__main-header {
+.main-header {
     padding: 0;
     width: 100%;
     height: 77px;
@@ -252,7 +255,7 @@ body {
     margin-top: 2px;
 }
 
-.container__footer {
+.main-footer {
     margin: 0;
     padding: 0;
     float: bottom;
@@ -261,6 +264,9 @@ body {
     background-color: #27273e;
     font-family: Gotham Pro;
     color: #fff;
+}
+.main-footer__container {
+    width: 100%;
 }
 
 .footer__block-address__text {
