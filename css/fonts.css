@@ -1,0 +1,81 @@
+        @font-face {
+        font-family: 'Gotham Pro';
+        src: url('/fonts/Gotham-Pro/GothamPro-Bold.woff2') format('woff2'), url('/fonts/Gotham-Pro/GothamPro-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('/fonts/Gotham-Pro/GothamPro-Light.woff2') format('woff2'), url('/fonts/Gotham-Pro/GothamPro-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('/fonts/Gotham-Pro/GothamPro-LightItalic.woff2') format('woff2'), url('/fonts/Gotham-Pro/GothamPro-LightItalic.woff') format('woff');
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('/fonts/Gotham-Pro/GothamPro.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Open-Sans_b';
+        src: url('/fonts/Open-Sans/OpenSans-Bold.woff2') format('woff2'), url('/fonts/Open-Sans/OpenSans-Bold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Open-Sans_ex-b';
+        src: url('/fonts/Open-Sans/OpenSans-ExtraBold.woff2') format('woff2'), url('/fonts/Open-Sans/OpenSans-Extrabold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Open-Sans';
+        src: url('/fonts/Open-Sans/OpenSans-Light.woff2') format('woff2'), url('/fonts/Open-Sans/OpenSans-Light.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Open-Sans';
+        src: url('/fonts/Open-Sans/OpenSans-LightItalic.woff2') format('woff2'), url('/fonts/Open-Sans/OpenSansLight-Italic.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Open-Sans';
+        src: url('/fonts/Open-Sans/OpenSans-Regular.woff2') format('woff2'),
+    }
+
+    @font-face {
+        font-family: 'Open-Sans';
+        src: url('/fonts/Open-Sans/OpenSans.woff') format('woff'),
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('/fonts/Roboto/Roboto-Bold_1.woff2') format('woff2'), 
+            url('/fonts/Roboto/Roboto-Bold_1.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('/fonts/Roboto/Roboto-Light.woff2') format('woff2'), 
+            url('/fonts/Roboto/Roboto-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('/fonts/Roboto/Roboto-LightItalic_1.woff2') format('woff2'), 
+            url('/fonts/Roboto/Roboto-LightItalic.woff') format('woff');
+        font-weight: 300;
+        font-style: italic;
+    }
