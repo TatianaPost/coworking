@@ -1,6 +1,6 @@
     * {
         box-sizing: border-box;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-family: "Gotham Pro";
         font-size: 14px;
         line-height: 1.42;
@@ -35,12 +35,12 @@
     }
 
     .main-header {
+        margin: 0 auto;
+        width: 1100px;
         background-color: #27273e;
     }
 
     .main-header__container {
-        width: 1100px;
-        margin: 0px auto;
         padding: 0px 21px;
         height: 77px;
         line-height: 77px;
@@ -59,6 +59,7 @@
 
     .main-header__info {
         float: right;
+        margin-right: 20px;
         vertical-align: middle;
         text-align: right;
         font-size: 14px;
@@ -66,6 +67,7 @@
     }
 
     .main-header__info__phone {
+        text-decoration: none;
         color: #fff;
         font-size: 21px;
         font-family: Gotham Pro;
@@ -132,9 +134,9 @@
         color: #000;
     }
 
-    .menu {
+    .main {
         width: 850px;
-        float: left;
+        float: right;
     }
     /* .container__peculiarity {} */
 
@@ -200,7 +202,6 @@
 
     .lastnews__list-block {
         padding-left: 0;
-        width: 900px;
     }
 
     .lastnews__block {
@@ -240,6 +241,7 @@
     }
 
     .container__pagination {
+        width: 100%;
         text-align: center;
     }
 
@@ -282,9 +284,7 @@
     }
 
     .footer {
-        margin: 0;
-        padding: 0;
-        float: bottom;
+        margin: 0 auto;
         clear: both;
         width: 100%;
         background-color: #27273e;
