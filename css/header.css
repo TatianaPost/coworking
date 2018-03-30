@@ -1,0 +1,53 @@
+    .main-header {
+        background-color: #2d2941;
+        padding-top: 5px;
+    }
+
+    .main-header__block-logo {
+        width: 120px;
+        height: 66px;
+        text-align: center;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .main-header__block-logo__link {
+        display: block;
+    }
+
+    .main-header__info {
+        float: right;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 14px;
+        line-height: 1.42;
+        padding-top: 4px;
+    }
+
+    .main-header__info__phone {
+        text-decoration: none;
+        color: #fff;
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+    .main-header__info__work {
+        color: #c02169;
+        font-family: Open-Sans;
+        font-weight: 600;
+        transition-duration: 0.5s;
+    }
+
+    .main-header__info__work:hover {
+        color: #808eb8;
+    }
+
+    .main-header__bg {
+        margin-bottom: 29px;
+    }
+
+    .main-header__bg__img {
+        width: 100%;
+        height: 100%;
+    }

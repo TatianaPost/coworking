@@ -1,0 +1,47 @@
+    .sidebar {
+        margin-top: 10px;
+        float: left;
+        width: 180px;
+    }
+
+    .block__menu {
+        font-weight: bold;
+        text-align-last: left;
+        font-size: 12px;
+    }
+
+    .menu__list {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .menu__item {
+        margin-top: 31px;
+        display: list-item;
+    }
+
+    .menu__link {
+        text-align: left;
+        font-size: 11px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ec1e79;
+        transition-duration: 0.4s
+    }
+
+    .menu__link:hover {
+        text-decoration: underline;
+        color: #000;
+        filter: grayscale(1.0)
+    }
+
+    .menu__link__img {
+        margin-right: 16px;
+        vertical-align: middle;
+    }
+
+    .menu_link_active {
+        color: #000;
+        text-decoration: underline;
+    }
