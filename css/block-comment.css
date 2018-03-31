@@ -9,6 +9,12 @@
 
     .comments__block {
         list-style-type: none;
+        border-bottom: 3px solid #f5f5f5;
+        ;
+    }
+
+    .comments__block:last-child {
+        border-bottom: none;
     }
 
     .comments__block-logo {

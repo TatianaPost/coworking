@@ -9,6 +9,10 @@
 
     .lastnews__block {
         list-style-type: none;
+        border-bottom: 3px solid #f5f5f5;
+    }
+    .lastnews__block {
+        border-bottom: none;
     }
 
     .lastnews__block-logo {

@@ -1,4 +1,5 @@
     .footer {
+        position: absolute;
         height: 80px;
         padding-top: 10px;
         margin-top: -80px;
@@ -11,15 +12,10 @@
     }
 
     .footer__block-address__text {
-        padding: 0;
-        margin: 0;
+        margin-top: 0;
         float: left;
         width: 33.3%;
         height: 100%;
-    }
-
-    .footer__block-address__text-link {
-        color: #fff;
     }
 
     .footer__block-logo {
@@ -31,18 +27,23 @@
     .footer__block-social {
         width: 33.3%;
         display: inline-block;
+        padding-bottom: 0;
     }
 
     .footer__block-social__text {
         margin-top: 0;
         text-align: right;
         font-weight: bold;
+        padding-bottom: 0;
     }
 
     .footer__block-social__list {
+        margin-top: 0;
+        padding-top: 0;
+        float: right;
         list-style-type: none;
         padding-left: 0;
-        margin-left: 185px;
+        margin-bottom: 0;
     }
 
     .footer__block-social__item {
@@ -61,7 +62,6 @@
         height: 20px;
         background-color: #d4d4d8;
         border-radius: 50%;
-        transition-duration: 0.4s;
     }
 
     .footer__block-social__item__circle__img {
