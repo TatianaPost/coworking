@@ -1,9 +1,8 @@
 .main-header {
     background-color: #2d2941;
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 0;
 }
-
 .main-header__block-logo {
     width: 120px;
     height: 66px;
@@ -11,12 +10,11 @@
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
+    margin-left: -10px;
 }
-
 .main-header__block-logo__link {
     display: block;
 }
-
 .main-header__info {
     float: right;
     text-align: right;
@@ -24,32 +22,23 @@
     font-family: Open-Sans;
     font-weight: 500;
 }
-
 .main-header__info__phone {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    letter-spacing: 1px;
+    padding-top: 2px;
+    letter-spacing: 0.6px;
 }
-
 .main-header__info__work {
     color: #c02169;
     transition-duration: 0.5s;
 }
-
 .main-header__info__work:hover {
     color: #808eb8;
 }
-
-.container {
-    max-width: 1060px;
-    margin: 0 auto;
-}
-
 .main-header__bg {
-    margin-bottom: 29px;
+    margin-bottom: 28px;
 }
-
 .main-header__bg__img {
     width: 100%;
     height: 100%;

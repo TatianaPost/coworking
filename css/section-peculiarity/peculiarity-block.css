@@ -1,26 +1,23 @@
 .peculiarity__block-list {
-    margin-left: 10px;
+    margin-left: 11px;
     text-align: center;
     padding-left: 0;
 }
-
 .peculiarity__block {
     float: left;
-    margin-right: 40px;
+    margin-right: 39px;
     list-style-type: none;
     list-style-position: inside;
 }
-
 .peculiarity__block-circle {
     padding-top: 20px;
     margin: 0 auto;
     width: 69px;
     height: 69px;
     border-radius: 50%;
-    margin-bottom: 27px;
+    margin-bottom: 25px;
     background-color: #27273e;
 }
-
 .peculiarity__block-content {
     width: 230px;
     margin: 0 auto;
@@ -29,40 +26,36 @@
     color: #767575;
     list-style-type: none;
 }
-
 .peculiarity__content-title {
     font-weight: bold;
     font-size: 12px;
+    padding-top: 1px;
     letter-spacing: 1.6px;
     text-transform: uppercase;
     color: #212121;
 }
-
 .peculiarity__content-text {
     margin-top: 15px;
     font-size: 16px;
     line-height: 1.9em;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin-bottom: 0;
 }
-
 .peculiarity__content-list {
-    margin-top: 5px;
-    margin-left: 15.8px;
+    margin-top: 4px;
+    margin-left: 15px;
     padding-left: 0;
-    margin-bottom: 42px;
+    margin-bottom: 47px;
 }
-
 .peculiarity__content-item {
     margin-top: 5px;
     list-style-type: none;
     font-size: 18px;
     text-align: left;
     position: relative;
-    padding-left: 36px;
+    padding-left: 35px;
     line-height: 1.6em;
 }
-
 .peculiarity__content-item::before {
     content: "•";
     color: #c36;
