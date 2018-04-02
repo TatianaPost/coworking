@@ -57,7 +57,7 @@
     width: 613px;
     line-height: 30px;
     padding-top: 20px;
-    margin-left: 75px;
+    margin-left: 155px;
 }
 
 .middle-banner_text_correct {
@@ -71,6 +71,7 @@
     height: 430px;
     margin-left: 179px;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 .form-heading {
