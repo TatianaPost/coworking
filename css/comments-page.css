@@ -50,14 +50,14 @@
 
 .middle-banner__text {
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     display: block;
     color: white;
     width: 613px;
     line-height: 30px;
     padding-top: 20px;
-    margin-right: 233px;
+    margin-left: 75px;
 }
 
 .middle-banner_text_correct {
