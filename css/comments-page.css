@@ -5,6 +5,12 @@
 @import url('/css/section-comments/lastnews-block.css');
 @import url('/css/pagination/pagination.css');
 @import url('/css/footer/footer.css');
+
+.main {
+    max-width: 880px;
+    float: left;
+}
+
 .bread-crumbs {
     margin-top: 35px;
     font-style: italic;

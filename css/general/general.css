@@ -48,8 +48,8 @@ body {
 }
 .main {
     max-width: 880px;
-    float: right;
-    margin-right: 0;
+    float: left;
+    margin-left: 75px;
 }
 .title {
     margin-top: 27px;
