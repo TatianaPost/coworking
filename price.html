@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Comments</title>
+    <title>Price</title>
     <link rel="stylesheet" href="/css/price.css" type="text/css">
 </head>
-
 <body>
     <!--[if lt IE 8]>
     <p class="chromeframe">Похоже, что ты используешь
@@ -22,14 +20,14 @@
         <header class="main-header">
             <div class="container">
                 <div class="main-header__block-logo">
-                    <a class="main-header__block-logo__link" href="/index.html">
+                    <a class="main-header__block-logo__link" href="/index.html" title="На Главную Страницу">
                         <img class="main-header__block-logo__link-img" src="img/logo/logo-fig.png" alt="Logo">
                     </a>
                 </div>
                 <div class="main-header__info">
-                    <a class="main-header__info__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
+                    <a class="main-header__info__phone" href="tel:+78000039210" title="Позвонить">8 (800) 00-392-10</a>
                     <div class="main-header__info__time-shedule">
-                        <a class="main-header__info__work" href="#">График работы</a>
+                        <a class="main-header__info__work" href="#" title="Посмотреть График Работы">График работы</a>
                     </div>
                 </div>
             </div>
@@ -39,17 +37,17 @@
                 <nav class="block__menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a class="menu__link" href="/index.html">
+                            <a class="menu__link" href="/index.html" title="Главная">
                                 <img class="menu__link__img" src="/img/icons/main_icon-pink.png" alt="menu-logo"> Главная
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="/comments.html">
+                            <a class="menu__link" href="/comments.html" title="Отзывы">
                                 <img class="menu__link__img" src="/img/icons/feed_icon_cw.png" alt="menu-logo"> Отзывы
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link menu_link_active" href="/price.html">
+                            <a class="menu__link menu_link_active" href="/price.html" title="Тарифы">
                                 <img class="menu__link__img" src="/img/icons/wallet_icon-black.png" alt="menu-logo"> Тарифы
                             </a>
                         </li>
@@ -60,10 +58,10 @@
                 <div class="breadcrumbs">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__item">
-                            <a class="breadcrumbs__item-link" href="/index.html">Главная</a>
+                            <a class="breadcrumbs__item-link" href="/index.html" title="Перейти на Главную">Главная</a>
                         </li>
                         <li class="breadcrumbs__item">
-                            <p class="breadcrumbs__item-link breadcrumbs_item_link-active" href="#">Тарифы</p>
+                            <p class="breadcrumbs__item__active">Тарифы</p>
                         </li>
                     </ul>
                 </div>
@@ -73,97 +71,124 @@
                         <li class="price__item">
                             <div class="price__item-block__img bg1">
                                 <div class="opacity__bg">
-                                    <span class="price__item-block__img-text">Vip, безлимит на одного</span>
+                                    <p class="price__item-block__img-text">«Один»</p>
                                 </div>
                             </div>
                             <div class="price__item-block__text">
-                                800 руб/мес или 100 руб/сутки Оплачивается 
-                                рабочее место на 1 человека. Есть возможность оплаты
-                                с привязкой к определенному физическому месту. При оплате за год, скидка 30%.
+                                <h3 class="price__item-block__text-title">
+                                    800 руб/мес<br>или 100 руб/сутки
+                                </h3>
+                                <p class="price__item-block__text-text">
+                                    Оплачивается рабочее место на 1 человека. Есть возможность оплаты
+                                    с привязкой к определенному физическому месту. При оплате за год, скидка 30%.
+                                </p>
                             </div>
                         </li>
                         <li class="price__item">
                             <div class="price__item-block__img bg2">
                                 <div class="opacity__bg">
-                                    <span class="price__item-block__img-text">Vip, безлимит на одного</span>
+                                    <p class="price__item-block__img-text">«трое»</p>
                                 </div>
                             </div>
                             <div class="price__item-block__text">
-                                1 500 руб/мес или 200 руб/сутки Оплачивается 
-                                стол на 3 рабочих места. При этом можно ими пользоваться
-                                как одновременно, так и поочередно. Можно пользоваться офисной техникой и 
-                                выделенным шкафом для документов.
+                                <h3 class="price__item-block__text-title">
+                                    1 500 руб/мес<br>или 200 руб/сутки
+                                </h3> 
+                                <p class="price__item-block__text-text">
+                                    Оплачиваетсястол на 3 рабочих места. При этом можно ими пользоваться
+                                    как одновременно, так и поочередно. Можно пользоваться офисной техникой и
+                                    выделенным шкафом для документов.
+                                </p>
                             </div>
                         </li>
                         <li class="price__item">
                             <div class="price__item-block__img bg3">
                                 <div class="opacity__bg">
-                                    <span class="price__item-block__img-text">Vip, безлимит на одного</span>
+                                    <p class="price__item-block__img-text">«10-10»</p>
                                 </div>
                             </div>
                             <div class="price__item-block__text">
-                                10 000 руб/мес Оплачивается 10 рабочих мест на любые 10 дней месяца. 
-                                Отлично подходит для периодической работы команды сотрудников без 
-                                строгой привязки к рабочему месту. При оплате на год вперед скидка 25%
+                                <h3 class="price__item-block__text-title">
+                                    10 000 руб/мес
+                                </h3> 
+                                <p class="price__item-block__text-text">
+                                    Оплачивается 10 рабочих мест на любые 10 дней месяца.
+                                    Отлично подходит для периодической работы команды сотрудников без
+                                    строгой привязки к рабочему месту. При оплате на год вперед скидка 25%
+                                </p>
                             </div>
                         </li>
                         <li class="price__item">
                             <div class="price__item-block__img bg4">
                                 <div class="opacity__bg">
-                                    <span class="price__item-block__img-text">Vip, безлимит на одного</span>
+                                    <p class="price__item-block__img-text price_item-block_img-text_correct"><span>Vip</span><br>«безлимит на одного»</p>
                                 </div>
                             </div>
-                            <div class="price__item-block__text">2 500 руб/мес В стоимость включена не только оплата рабочего места, но и пользование копировальной
-                                техникой, бесплатный кофе или чай в течение дня, возможность использования зала для переговоров
-                                при предварительном бронировании 1 раз в месяц.</div>
+                            <div class="price__item-block__text">
+                                <h3 class="price__item-block__text-title">
+                                    2 500 руб/мес
+                                </h3> 
+                                <p class="price__item-block__text-text">
+                                    В стоимость включена не только оплата рабочего места, но и пользование копировальной
+                                    техникой, бесплатный кофе или чай в течение дня, возможность использования зала для переговоров
+                                    при предварительном бронировании 1 раз в месяц.
+                                </p>
+                            </div>
                         </li>
                         <li class="price__item">
                             <div class="price__item-block__img bg5">
                                 <div class="opacity__bg">
-                                    <span class="price__item-block__img-text">Vip, безлимит на одного</span>
+                                    <p class="price__item-block__img-text price_item-block_img-text_correct"><span>Vip</span><br>«всё включено»</p>
                                 </div>
                             </div>
-                            <div class="price__item-block__text">Цена рассчитывается индивидуально Оплачивается необходимое число рабочих мест с привязкой к фактическому
-                                местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный
-                                принтер и копировальный автомат.
+                            <div class="price__item-block__text">
+                                <h3 class="price__item-block__text-title">
+                                    Цена рассчитывается индивидуально
+                                </h3> 
+                                <p class="price__item-block__text-text">
+                                    Оплачивается необходимое число рабочих мест с привязкой к фактическому
+                                    местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный
+                                    принтер и копировальный автомат.
+                                </p>
                             </div>
                         </li>
                         <li class="price__item">
                             <div class="price__item-block__img bg6">
                                 <div class="opacity__bg">
-                                    <span class="price__item-block__img-text">Vip, безлимит на одного</span>
+                                    <p class="price__item-block__img-text">«переговоры»</p>
                                 </div>
                             </div>
-                            <div class="price__item-block__text">2 500 руб/час — Аренда среднего зала. Есть возможность раннего бронирования конференц-залов со
-                                скидкой до 30% при полной предоплате.</div>
+                            <div class="price__item-block__text">
+                                <h3 class="price__item-block__text-title">
+                                    2 500 руб/час —
+                                </h3>
+                                <p class="price__item-block__text-text">
+                                    Аренда среднего зала. Есть возможность раннего бронирования конференц-залов со
+                                    скидкой до 30% при полной предоплате.
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </section>
                 <h2 class="title">Партнёры</h2>
                 <section class="content__partners-block">
                     <ul class="partners-block__list">
-                        <li class="partners-block__item">
-                            <img class="partners-block__img" src="./img/prices/partners/winter.png" alt="">
+                        <li class="partners-block__item" title="Партнер 'Винтер канцелярия'">
+                            <img class="partners-block__img" src="/img/partners/winter.png" alt="">
                         </li>
-                        <li class="partners-block__item">
-                            <img src="" alt="">
-                            <img class="partners-block__img" src="./img/prices/partners/drop.png" alt="">
+                        <li class="partners-block__item" title="Партнер 'Drop'">
+                            <img class="partners-block__img" src="/img/partners/drop.png" alt="">
                         </li>
-                        <li class="partners-block__item">
-                            <img src="" alt="">
-                            <img class="partners-block__img" src="./img/prices/partners/ahmatova.png" alt="">
+                        <li class="partners-block__item" title="Партнер 'Библиотека Анны Ахматовой'">
+                            <img class="partners-block__img" src="/img/partners/logo-3.png" alt="">
                         </li>
-                        <li class="partners-block__item">
-                            <img src="" alt="">
-                            <img class="partners-block__img" src="./img/prices/partners/tishkin.png" alt="">
+                        <li class="partners-block__item" title="Партнер 'Кафе Тишкин'">
+                            <img class="partners-block__img" src="/img/partners/tishkin.png" alt="">
                         </li>
-                        <li class="partners-block__item">
-                            <img src="" alt="">
-                            <img class="partners-block__img" src="./img/prices/partners/pufok.png" alt="">
+                        <li class="partners-block__item" title="Партнер 'Мебельный салон Пуфок'">
+                            <img class="partners-block__img" src="/img/partners/pufok.png" alt="">
                         </li>
-                        <li class="partners-block__item">
-                            <img src="" alt="">
-                            <img class="partners-block__img" src="./img/prices/partners/avantage.png" alt="">
+                            <img class="partners-block__img" src="/img/partners/avantage.png" alt="">
                         </li>
                     </ul>
                 </section>
@@ -183,13 +208,15 @@
                 </p>
             </div>
             <div class="footer__block-logo">
-                <img class="footer__block-logo__img" src="img/logo/logo-fig.png" alt="Logo">
+                <a href="/price.html">
+                    <img class="footer__block-logo__img" src="img/logo/logo-fig.png" alt="Logo" title="В начало страницы">
+                </a>
             </div>
             <div class="footer__block-social">
                 <p class="footer__block-social__text">Наши социальные сети</p>
                 <ul class="footer__block-social__list">
                     <li class="footer__block-social__item">
-                        <a class="footer__block-social__item__link" href="#">
+                        <a class="footer__block-social__item__link" href="#" title="Vkontakte">
                             <div class="footer__block-social__item__circle">
                                 <img class="footer__block-social__item__circle__img" src="img/social/vk2.png" alt="vkontakte">
                             </div>
@@ -197,7 +224,7 @@
                         </a>
                     </li>
                     <li class="footer__block-social__item">
-                        <a class="footer__block-social__item__link" href="#">
+                        <a class="footer__block-social__item__link" href="#" title="Facebook">
                             <div class="footer__block-social__item__circle">
                                 <img class="footer__block-social__item__circle__img facebook_correct" src="img/social/fb1.png" alt="facebook">
                             </div>
@@ -205,7 +232,7 @@
                         </a>
                     </li>
                     <li class="footer__block-social__item">
-                        <a class="footer__block-social__item__link" href="#">
+                        <a class="footer__block-social__item__link" href="#" title="Google">
                             <div class="footer__block-social__item__circle">
                                 <img class="footer__block-social__item__circle__img" src="img/social/google.png" alt="google">
                             </div>
@@ -213,7 +240,7 @@
                         </a>
                     </li>
                     <li class="footer__block-social__item">
-                        <a class="footer__block-social__item__link" href="#">
+                        <a class="footer__block-social__item__link" href="#" title="Twitter">
                             <div class="footer__block-social__item__circle">
                                 <img class="footer__block-social__item__circle__img" src="img/social/twitter.png" alt="twitter">
                             </div>
@@ -221,7 +248,7 @@
                         </a>
                     </li>
                     <li class="footer__block-social__item">
-                        <a class="footer__block-social__item__link" href="#">
+                        <a class="footer__block-social__item__link" href="#" title="Mail">
                             <div class="footer__block-social__item__circle">
                                 <img class="footer__block-social__item__circle__img" src="img/social/mail.png" alt="Mail">
                             </div>

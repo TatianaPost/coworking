@@ -22,14 +22,14 @@
         <header class="main-header">
             <div class="container">
                 <div class="main-header__block-logo">
-                    <a class="main-header__block-logo__link" href="/index.html">
+                    <a class="main-header__block-logo__link" href="/index.html" title="На Главную Страницу">
                         <img class="main-header__block-logo__link-img" src="img/logo/logo-fig.png" alt="Logo">
                     </a>
                 </div>
                 <div class="main-header__info">
-                    <a class="main-header__info__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
+                    <a class="main-header__info__phone" href="tel:+78000039210" title="Позвонить">8 (800) 00-392-10</a>
                     <div class="main-header__info__time-shedule">
-                        <a class="main-header__info__work" href="#">График работы</a>
+                        <a class="main-header__info__work" href="#" title="Посмотреть График Работы">График работы</a>
                     </div>
                 </div>
             </div>
@@ -39,17 +39,17 @@
                 <nav class="block__menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a class="menu__link" href="/index.html">
+                            <a class="menu__link" href="/index.html" title="Главная">
                                 <img class="menu__link__img" src="/img/icons/main_icon-pink.png" alt="menu-logo"> Главная
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link menu_link_active" href="#">
+                            <a class="menu__link menu_link_active" href="/comments.html" title="Отзывы">
                                 <img class="menu__link__img" src="/img/icons/feed_icon_black.png" alt="menu-logo"> Отзывы
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="/price.html">
+                            <a class="menu__link" href="/price.html" title="Тарифы">
                                 <img class="menu__link__img" src="/img/icons/wallet_icon_cw.png" alt="menu-logo"> Тарифы
                             </a>
                         </li>
@@ -60,10 +60,10 @@
                 <div class="breadcrumbs">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__item">
-                            <a class="breadcrumbs__item-link" href="/index.html">Главная</a>
+                            <a class="breadcrumbs__item-link" href="/index.html" title="Перейти на Главную">Главная</a>
                         </li>
                         <li class="breadcrumbs__item">
-                            <p class="breadcrumbs__item-link breadcrumbs_item_link-active" href="#">Тарифы</p>
+                            <p class="breadcrumbs__item__active">Отзывы</p>
                         </li>
                     </ul>
                 </div>
@@ -188,21 +188,21 @@
                     <label>
                         <span class="form-adding__name-text">Ваше имя</span>
                         <br>
-                        <input class="form-adding__input" type="text" placeholder="Андрей">
+                        <input class="form-adding__input" type="text" placeholder="Андрей" title="Введите Ваше Имя">
                     </label>
                 </div>
                 <div class="form-adding__link-vk review__input_right">
                     <label>
                         <span class="form-adding__link-text">Ссылка на профиль VK</span>
                         <br>
-                        <input class="form-adding__input" type="text" placeholder="vk.com/example">
+                        <input class="form-adding__input" type="text" placeholder="vk.com/example"title="Введите ссылку на Ваш профиль Вконтакте">
                     </label>
                 </div>
                 <div class="form-adding__textform">
                     <label>
                         <span class="form-adding__textform-head">Текст отзыва</span>
                         <br>
-                        <textarea class="form-adding__textarea" type="text" placeholder="Мне понравилось"></textarea>
+                        <textarea class="form-adding__textarea" type="text" placeholder="Мне понравилось"title="Введите Текст"></textarea>
                     </label>
                 </div>
                 <div class="form-adding__radio-buttons">
@@ -211,81 +211,83 @@
                     <div class="form-adding__two-buttons">
                         <label class="radio-button">
                             <input class="radio-button-input" type="radio" name="yes/no">
-                            <p class="radio-button--style"></p>
+                            <p class="radio-button--style" title="Выбрать 'Да'"></p>
                             <span class="answer">Да</span>
                         </label>
                         <label class="radio-button">
                             <input class="radio-button-input" type="radio" name="yes/no">
-                            <p class="radio-button--style"></p>
+                            <p class="radio-button--style" title="Выбрать 'Нет'"></p>
                             <span class="answer">Нет</span>
                         </label>
                     </div>
-                    <button class="form-adding__button-submit" type="submit">Отправить</button>
+                    <button class="form-adding__button-submit" type="submit" title="Оставить Отзыв">Отправить</button>
                 </div>
             </form>
         </section>
     </div>
     <footer class="footer">
-                <div class="container">
-                    <div class="footer__block-address">
-                        <p class="footer__block-address__text">
-                            Сделано с любовью и старанием на курсе «HTML + CSS» в
-                            <a class="footer__block-address__text-link" href="www.loftschool.com">
-                                <b>LoftSchool.</b>
-                            </a><br>
-                            Автор работы:<b>Егоров Дмитрий</b>
-                        </p>
-                    </div>
-                    <div class="footer__block-logo">
-                        <img class="footer__block-logo__img" src="img/logo/logo-fig.png" alt="Logo">
-                    </div>
-                    <div class="footer__block-social">
-                        <p class="footer__block-social__text">Наши социальные сети</p>
-                        <ul class="footer__block-social__list">
-                            <li class="footer__block-social__item">
-                                <a class="footer__block-social__item__link" href="#">
-                                    <div class="footer__block-social__item__circle">
-                                        <img class="footer__block-social__item__circle__img" src="img/social/vk2.png" alt="vkontakte">
-                                    </div>
-                                    vkontakte
-                                </a>
-                            </li>
-                            <li class="footer__block-social__item">
-                                <a class="footer__block-social__item__link" href="#">
-                                    <div class="footer__block-social__item__circle">
-                                        <img class="footer__block-social__item__circle__img facebook_correct" src="img/social/fb1.png" alt="facebook">
-                                    </div>
-                                    facebook
-                                </a>
-                            </li>
-                            <li class="footer__block-social__item">
-                                <a class="footer__block-social__item__link" href="#">
-                                    <div class="footer__block-social__item__circle">
-                                        <img class="footer__block-social__item__circle__img" src="img/social/google.png" alt="google">
-                                    </div>
-                                    google
-                                </a>
-                            </li>
-                            <li class="footer__block-social__item">
-                                <a class="footer__block-social__item__link" href="#">
-                                    <div class="footer__block-social__item__circle">
-                                        <img class="footer__block-social__item__circle__img" src="img/social/twitter.png" alt="twitter">
-                                    </div>
-                                    twitter
-                                </a>
-                            </li>
-                            <li class="footer__block-social__item">
-                                <a class="footer__block-social__item__link" href="#">
-                                    <div class="footer__block-social__item__circle">
-                                        <img class="footer__block-social__item__circle__img" src="img/social/mail.png" alt="Mail">
-                                    </div>
-                                    Mail
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="footer__block-address">
+                <p class="footer__block-address__text">
+                    Сделано с любовью и старанием на курсе «HTML + CSS» в
+                    <a class="footer__block-address__text-link" href="www.loftschool.com">
+                        <b>LoftSchool.</b>
+                    </a>
+                    <br> Автор работы:
+                    <b>Егоров Дмитрий</b>
+                </p>
+            </div>
+            <div class="footer__block-logo">
+                <a href="/comments.html">
+                    <img class="footer__block-logo__img" src="img/logo/logo-fig.png" alt="Logo" title="В начало страницы">
+                </a>
+            </div>
+            <div class="footer__block-social">
+                <p class="footer__block-social__text">Наши социальные сети</p>
+                <ul class="footer__block-social__list">
+                    <li class="footer__block-social__item">
+                        <a class="footer__block-social__item__link" href="#" title="Vkontakte">
+                            <div class="footer__block-social__item__circle">
+                                <img class="footer__block-social__item__circle__img" src="img/social/vk2.png" alt="vkontakte">
+                            </div>
+                            vkontakte
+                        </a>
+                    </li>
+                    <li class="footer__block-social__item">
+                        <a class="footer__block-social__item__link" href="#" title="Facebook">
+                            <div class="footer__block-social__item__circle">
+                                <img class="footer__block-social__item__circle__img facebook_correct" src="img/social/fb1.png" alt="facebook">
+                            </div>
+                            facebook
+                        </a>
+                    </li>
+                    <li class="footer__block-social__item">
+                        <a class="footer__block-social__item__link" href="#" title="Google">
+                            <div class="footer__block-social__item__circle">
+                                <img class="footer__block-social__item__circle__img" src="img/social/google.png" alt="google">
+                            </div>
+                            google
+                        </a>
+                    </li>
+                    <li class="footer__block-social__item">
+                        <a class="footer__block-social__item__link" href="#" title="Twitter">
+                            <div class="footer__block-social__item__circle">
+                                <img class="footer__block-social__item__circle__img" src="img/social/twitter.png" alt="twitter">
+                            </div>
+                            twitter
+                        </a>
+                    </li>
+                    <li class="footer__block-social__item">
+                        <a class="footer__block-social__item__link" href="#" title="Mail">
+                            <div class="footer__block-social__item__circle">
+                                <img class="footer__block-social__item__circle__img" src="img/social/mail.png" alt="Mail">
+                            </div>
+                            Mail
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
-
 </html>

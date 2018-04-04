@@ -5,46 +5,71 @@
 @import url('/css/section-comments/lastnews-block.css');
 @import url('/css/pagination/pagination.css');
 @import url('/css/footer/footer.css');
+
+/* .main {
+    margin-left: 10px;
+} */
+
+.price__list {
+    padding-left: 0;
+}
+
 .price__item {
+    margin-right: 35px;
     list-style: none;
     display: inline-block;
     width: 252px;
-    height: 350px;
+    margin-top: 0;
+    margin-bottom: 35px;
     vertical-align: top;
 }
 
 .price__item-block__img {
     width: 250px;
     height: 153px;
-    border-radius: 3%;
 }
 
 .price__item-block__img-text {
+    line-height: 150px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
     color: #5dd1f8;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.price_item-block_img-text_correct {
+    line-height: normal;
+    padding-top: 30px;
 }
 
+.price__item-block__img-text>span {
+    font-size: 24px;
+    color: deeppink;
+}
 .bg1 {
     background-image: url('/img/price/bg1.jpg');
 }
 
 .bg2 {
-    background-image: url('/img/price/bg1.jpg');
+    background-image: url('/img/price/bg2.jpg');
 }
 
 .bg3 {
-    background-image: url('/img/price/bg1.jpg');
+    background-image: url('/img/price/bg3.jpg');
 }
 
 .bg4 {
-    background-image: url('/img/price/bg1.jpg');
+    background-image: url('/img/price/bg4.jpg');
 }
 
 .bg5 {
-    background-image: url('/img/price/bg1.jpg');
+    background-image: url('/img/price/bg5.jpg');
 }
 
 .bg6 {
-    background-image: url('/img/price/bg1.jpg');
+    background-image: url('/img/price/bg6.jpg');
 }
 
 .opacity__bg {
@@ -54,36 +79,23 @@
     width: 100%;
 }
 
-span {
-    color: #fff;
+.price__item-block__text {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
 }
 
-.price__bg2 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
+.price__item-block__text-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.price__item-block__text-text {
+    margin-top: 0;
 }
 
-.price__item__img__3 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
-}
-
-.price__item__img__4 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
-}
-
-.price__item__img__5 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
-}
-
-.price__item__img__6 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
-}
-
-.price__heading {
-    color: #221f1f;
-    font-family: "Gotham Pro";
-    font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;
+.partners-block__list {
+    padding-left: 0;
 }
 
 .partners-block__item {

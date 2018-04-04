@@ -87,6 +87,7 @@
     margin-right: 5px;
     margin-top: -2px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .radio-button--style:before {
@@ -103,7 +104,6 @@
     transform: scale(0);
     transition: .2s;
 }
-
 
 .form-adding__two-buttons {
     margin-top: 10px;
