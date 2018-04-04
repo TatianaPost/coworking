@@ -1,0 +1,93 @@
+.price__list {
+    padding-left: 0;
+}
+
+.price__item {
+    margin-right: 35px;
+    list-style: none;
+    display: inline-block;
+    width: 252px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    vertical-align: top;
+}
+
+.price__item-block__img {
+    width: 250px;
+    height: 153px;
+}
+
+.opacity__bg {
+    background-color: rgb(39, 39, 62);
+    opacity: 0.851;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.price__item-block__img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) 
+    translateY(-50%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #5dd1f8;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.price__item-block__img-text>span {
+    font-size: 24px;
+    color: deeppink;
+}
+
+.bg1 {
+    background-image: url('/img/price/bg1.jpg');
+    border-radius: 5px;
+}
+
+.bg2 {
+    background-image: url('/img/price/bg2.jpg');
+    border-radius: 5px;
+}
+
+.bg3 {
+    background-image: url('/img/price/bg3.jpg');
+    border-radius: 5px;
+}
+
+.bg4 {
+    background-image: url('/img/price/bg4.jpg');
+    border-radius: 5px;
+}
+
+.bg5 {
+    background-image: url('/img/price/bg5.jpg');
+    border-radius: 5px;
+}
+
+.bg6 {
+    background-image: url('/img/price/bg6.jpg');
+    border-radius: 5px;
+}
+
+.price__item-block__text {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.price__item-block__text-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.price__item-block__text-text {
+    margin-top: 0;
+}
