@@ -5,6 +5,7 @@
 @import url('/css/section-comments/lastnews-block.css');
 @import url('/css/pagination/pagination.css');
 @import url('/css/footer/footer.css');
+@import url('/css/form/form.css');
 .main {
     max-width: 880px;
     float: left;

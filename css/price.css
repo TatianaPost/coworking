@@ -5,8 +5,7 @@
 @import url('/css/section-comments/lastnews-block.css');
 @import url('/css/pagination/pagination.css');
 @import url('/css/footer/footer.css');
-
-.price-block__item {
+.price__item {
     list-style: none;
     display: inline-block;
     width: 252px;
@@ -14,31 +13,72 @@
     vertical-align: top;
 }
 
-.price-block_item_img {
+.price__item-block__img {
     width: 250px;
     height: 153px;
+    border-radius: 3%;
 }
-.price-block__item__img__1 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
+
+.price__item-block__img-text {
+    color: #5dd1f8;
 }
-.price-block__item__img__2 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
+
+.bg1 {
+    background-image: url('/img/price/bg1.jpg');
 }
-.price-block__item__img__3 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
+
+.bg2 {
+    background-image: url('/img/price/bg1.jpg');
 }
-.price-block__item__img__4 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
+
+.bg3 {
+    background-image: url('/img/price/bg1.jpg');
 }
-.price-block__item__img__5 {
-    background: url('/img/price/bg1.jpg') center center no-repeat;
+
+.bg4 {
+    background-image: url('/img/price/bg1.jpg');
 }
-.price-block__item__img__6 {
+
+.bg5 {
+    background-image: url('/img/price/bg1.jpg');
+}
+
+.bg6 {
+    background-image: url('/img/price/bg1.jpg');
+}
+
+.opacity__bg {
+    background-color: rgb(39, 39, 62);
+    opacity: 0.851;
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    color: #fff;
+}
+
+.price__bg2 {
     background: url('/img/price/bg1.jpg') center center no-repeat;
 }
 
+.price__item__img__3 {
+    background: url('/img/price/bg1.jpg') center center no-repeat;
+}
 
-.price-block__heading {
+.price__item__img__4 {
+    background: url('/img/price/bg1.jpg') center center no-repeat;
+}
+
+.price__item__img__5 {
+    background: url('/img/price/bg1.jpg') center center no-repeat;
+}
+
+.price__item__img__6 {
+    background: url('/img/price/bg1.jpg') center center no-repeat;
+}
+
+.price__heading {
     color: #221f1f;
     font-family: "Gotham Pro";
     font-size: 49px;
