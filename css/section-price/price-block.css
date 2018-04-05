@@ -24,6 +24,11 @@
     width: 100%;
     border-radius: 5px;
     position: relative;
+    transition-duration: 0.4s;
+}
+.opacity__bg:hover {
+    opacity: 0;
+    
 }
 
 .price__item-block__img-text {
