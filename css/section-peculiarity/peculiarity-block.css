@@ -25,6 +25,7 @@
     font-size: 18px;
     color: #767575;
     list-style-type: none;
+    overflow: hidden;
 }
 .peculiarity__content-title {
     font-weight: bold;

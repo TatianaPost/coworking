@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
     /* border: 1px solid red; */
-    font-family: "Gotham Pro";
-    font-size: 14px;
-    line-height: 1.42;
 }
 
 .clearfix:after {
@@ -34,6 +31,9 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    line-height: 1.42;
 }
 
 .wrapper {
@@ -42,7 +42,7 @@ body {
     padding: 0;
     position: relative;
     min-height: 100%;
-    height: auto!important;
+    height: auto !important;
     overflow: hidden;
 }
 
@@ -70,6 +70,7 @@ body {
     font-size: 49px;
     margin-bottom: 45px;
 }
+
 .breadcrumbs__list {
     padding-left: 0;
 }

@@ -1,0 +1,27 @@
+.middle-banner {
+    width: 100%;
+    min-height: 175px;
+    background-color: #27273e;
+    background-image: url('/img/banners/Group 1.png');
+    margin-bottom: 57px;
+    overflow: hidden;
+}
+
+.banner__container {
+    width: 65%;
+    margin: 0 auto;
+    padding: 45px 0 5px 0;
+}
+
+.banner__container__text {
+    font-weight: 300;
+    font-size: 18px;
+    display: block;
+    color: white;
+    line-height: 30px;
+}
+
+.banner__container_text_correct {
+    color: #ec1e79;
+    font-weight: bold;
+}

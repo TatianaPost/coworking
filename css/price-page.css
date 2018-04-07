@@ -4,6 +4,13 @@
 @import url('/css/menu/menu.css');
 @import url('/css/section-price/price-block.css');
 @import url('/css/footer/footer.css');
+.title {
+    margin-top: 13px;
+}
+
+.main-header {
+    margin-bottom: 8px;
+}
 
 .partners-block__list {
     padding-left: 0;

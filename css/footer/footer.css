@@ -7,6 +7,7 @@
     background-color: #27273e;
     font-weight: normal;
     color: #fff;
+    overflow: hidden;
 }
 
 .footer__block-address__text {
@@ -64,6 +65,9 @@
     height: 25px;
     display: block;
     background: url('/img/social/social_sprite.png') 0px 0px no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .link_vk {
@@ -71,7 +75,7 @@
 }
 
 .link_vk:hover {
-    background-position: 0 0;
+    background-position: 0px 0px;
 }
 
 .link_fb {

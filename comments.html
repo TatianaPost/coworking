@@ -35,7 +35,7 @@
         </header>
         <div class="container clearfix">
             <aside class="sidebar">
-                <nav class="block__menu">
+                <!-- <nav class="block__menu">
                     <ul class="menu__list">
                         <li class="menu__item">
                             <a class="menu__link" href="/index.html" title="Главная">
@@ -50,6 +50,25 @@
                         <li class="menu__item">
                             <a class="menu__link" href="/price.html" title="Тарифы">
                                 <img class="menu__link__img" src="/img/icons/wallet_icon_cw.png" alt="menu-logo"> Тарифы
+                            </a>
+                        </li>
+                    </ul>
+                </nav> -->
+                <nav class="block__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link link_main" href="/index.html" title="Главная">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link link_comments menu_link_active-comments" href="/comments.html" title="Отзывы">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link link_price" href="/price.html" title="Тарифы">
+                                Тарифы
                             </a>
                         </li>
                     </ul>
@@ -141,43 +160,57 @@
                 <div class="pagination">
                     <span class="pagination__title">Страница 1 из 7</span>
                     <a class="pagination__item__link pagination_item_cursor_left" href="#" title="На предыдущую страницу">
-                        &lsaquo;
+                        <span>&lsaquo;</span>
                     </a>
                     <ul class="pagination__list">
-                        <li class="pagination__item pagination_item_active">
-                            <a class="pagination__item__link" href="#" title="На страницу 1"><div class="pagination__item-block">1</div></a>
+                        <li class="pagination__item">
+                            <a class="pagination__item__link" href="#" title="На страницу 1">
+                                <span class="pagination__item-block pagination_item_active">1</span>
+                            </a>
                         </li>
                         <li class="pagination__item">
-                            <a class="pagination__item__link" href="#" title="На страницу номер 2"><div class="pagination__item-block">2</div></a>
+                            <a class="pagination__item__link" href="#" title="На страницу номер 2">
+                                <span class="pagination__item-block">2</span>
+                            </a>
                         </li>
                         <li class="pagination__item">
-                            <a class="pagination__item__link" href="#" title="На страницу номер 3"><div class="pagination__item-block">3</div></a>
+                            <a class="pagination__item__link" href="#" title="На страницу номер 3">
+                                <span class="pagination__item-block">3</span>
+                            </a>
                         </li>
                         <li class="pagination__item">
-                            <a class="pagination__item__link" href="#" title="На страницу номер 4"><div class="pagination__item-block">4</div></a>
+                            <a class="pagination__item__link" href="#" title="На страницу номер 4">
+                                <span class="pagination__item-block">4</span>
+                            </a>
                         </li>
                         <li class="pagination__item">
-                            <a class="pagination__item__link" href="#" title="На страницу номер 5"><div class="pagination__item-block">5</div></a>
+                            <a class="pagination__item__link" href="#" title="На страницу номер 5">
+                                <span class="pagination__item-block">5</span>
+                            </a>
                         </li>
                         <li class="pagination__item">
-                            <a class="pagination__item__link" href="#" title="На страницу номер 6"><div class="pagination__item-block">6</div></a>
+                            <a class="pagination__item__link" href="#" title="На страницу номер 6">
+                                <span class="pagination__item-block">6</span>
+                            </a>
                         </li>
                         <li class="pagination__item">
-                            <a class="pagination__item__link" href="#" title="На страницу номер 7"><div class="pagination__item-block">7</div></a>
+                            <a class="pagination__item__link" href="#" title="На страницу номер 7">
+                                <span class="pagination__item-block">7</span>
+                            </a>
                         </li>
                     </ul>
                     <a class="pagination__item__link pagination_item_cursor_right" href="#" title="На следующую страницу">
-                        &rsaquo;
+                        <span>&rsaquo;</span>
                     </a>
                 </div>
             </main>
         </div>
         <section class="container middle-banner">
-            <div class="main">
-                <p class="middle-banner__text">
-                    Для наших новых клиентов мы предлагаем <span class="middle-banner_text_correct">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга
+            <div class="banner__container">
+                <div class="banner__container__text">
+                    Для наших новых клиентов мы предлагаем <span class="banner__container_text_correct">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга
                     «Воркадиум»!
-                </p>
+                </div>
             </div>
         </section>
         <section class="container form-adding">
@@ -246,42 +279,27 @@
                 <ul class="footer__block-social__list">
                     <li class="footer__block-social__item">
                         <a class="block-social__item__link link_vk" href="#" title="Vkontakte">
-                            <!-- <div class="footer__block-social__item__circle">
-                                            <img class="footer__block-social__item__circle__img" src="img/social/vk2.png" alt="vkontakte">
-                                        </div> -->
-                            <!-- vkontakte -->
+                            vkontakte
                         </a>
                     </li>
                     <li class="footer__block-social__item">
                         <a class="block-social__item__link link_fb" href="#" title="Facebook">
-                            <!-- <div class="footer__block-social__item__circle">
-                                            <img class="footer__block-social__item__circle__img facebook_correct" src="img/social/fb1.png" alt="facebook">
-                                        </div> -->
-                            <!-- facebook -->
+                            facebook
                         </a>
                     </li>
                     <li class="footer__block-social__item">
                         <a class="block-social__item__link link_google" href="#" title="Google">
-                            <!-- <div class="footer__block-social__item__circle">
-                                            <img class="footer__block-social__item__circle__img" src="img/social/google.png" alt="google">
-                                        </div> -->
-                            <!-- google -->
+                            google
                         </a>
                     </li>
                     <li class="footer__block-social__item">
                         <a class="block-social__item__link link_tw" href="#" title="Twitter">
-                            <!-- <div class="footer__block-social__item__circle">
-                                            <img class="footer__block-social__item__circle__img" src="img/social/twitter.png" alt="twitter">
-                                        </div> -->
-                            <!-- twitter -->
+                            twitter
                         </a>
                     </li>
                     <li class="footer__block-social__item">
                         <a class="block-social__item__link link_mail" href="#" title="Mail">
-                            <!-- <div class="footer__block-social__item__circle">
-                                            <img class="footer__block-social__item__circle__img" src="img/social/mail.png" alt="Mail">
-                                        </div> -->
-                            <!-- Mail -->
+                            Mail
                         </a>
                     </li>
                 </ul>

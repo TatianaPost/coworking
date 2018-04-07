@@ -28,9 +28,14 @@
     color: #221f1f;
     width: 267px;
     height: 47px;
-    border: 1px solid #fff;
+    border: 1px solid transparent;
     border-radius: 3px;
     padding-left: 5px;
+    outline: none;
+}
+
+.form-adding__input:focus {
+    border: 1px solid #ec1e79;
 }
 
 .form__input_left {
@@ -48,13 +53,18 @@
 }
 
 .form-adding__textarea {
-    border: 1px solid #ec1e79;
+    border: 1px solid transparent;
     border-radius: 3px;
     width: 563px;
     height: 92px;
     padding-left: 10px;
     vertical-align: text-top;
     padding-top: 10px;
+    resize: none;
+    outline: none;
+}
+.form-adding__textarea:focus {
+    border: 1px solid #ec1e79;
 }
 
 .form-adding__radio-buttons {
