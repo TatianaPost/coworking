@@ -26,9 +26,10 @@
 }
 
 .pagination_item_active {
-    width: 25px;
+    /* width: 25px;
     height: 25px;
-    padding-top: 2px;
+    padding-top: 2px; */
+    padding: 4px;
     border-radius: 3px;
     background-color: #27273e;
     color: #ec1e79;
@@ -36,9 +37,10 @@
 
 .pagination__item-block {
     display: block;
-    width: 25px;
-    height: 25px;
-    padding-top: 2px;
+    padding: 5px;
+    /* width: 25px; */
+    /* height: 25px; */
+    /* padding-top: 2px; */
     border-radius: 3px;
     transition-duration: 0.2s;
 }

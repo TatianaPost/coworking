@@ -4,7 +4,6 @@
 @import url('/css/menu/menu.css');
 @import url('/css/section-price/price-block.css');
 @import url('/css/footer/footer.css');
-
 .main {
     max-width: 83%;
 }
@@ -18,18 +17,24 @@
     margin-bottom: 10px;
 }
 
+.content__partners-block {
+    width: 100%;
+}
+
 .partners-block__list {
     padding-left: 0;
+    display: block;
+    font-size: 0;
+
 }
 
 .partners-block__item {
     list-style: none;
     display: inline-block;
     width: 30%;
-    margin-right: 120px;
-    margin-right: 14px;
+    margin-left: 14px;
     margin-bottom: 40px;
-    filter: grayscale(100%);
+    filter: grayscale(1);
 }
 
 .partners-block__item:hover {

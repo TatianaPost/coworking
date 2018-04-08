@@ -47,7 +47,7 @@
     letter-spacing: 1px;
 }
 
-.main-header__info__work:hover+.dropdown__schedule {
+.schedule__dropped-block:hover .dropdown__schedule {
     left: 79%;
 }
 
@@ -65,7 +65,7 @@
     top: 65px;
 }
 
-/* .dropdown__schedule::after {
+.dropdown__schedule::after {
     content: '';
     display: block;
     height: 25px;
@@ -73,7 +73,7 @@
     top: -23px;
     left: 0;
     right: 0;
-} */
+}
 
 .dropdown__schedule_triangle {
     width: 18px;
