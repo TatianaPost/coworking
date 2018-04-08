@@ -30,7 +30,7 @@
 
 .intro__logo__link:hover {
     background-color: #ec1e79;
-    box-shadow: 0 0 2px 1px #ec1e7b73;
+    box-shadow: 0 0 2px 1px #ec1e7b;
     transition: ease .9s;
 }
 
