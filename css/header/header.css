@@ -2,7 +2,7 @@
     /* background: linear-gradient(to bottom top, #2d2941, #27273e); */
     background-color: #2d2941;
     padding-top: 3px;
-    padding-left: 0;
+    padding-left: 10;
 }
 
 .main-header__block-logo {
@@ -12,7 +12,7 @@
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    margin-left: -10px;
+    /* margin-left: -10px; */
 }
 
 .main-header__block-logo__link {
@@ -39,77 +39,54 @@
     color: #fff;
     font-size: 20px;
     padding-top: 2px;
-    letter-spacing: 0.6px;
+    letter-spacing: 2px;
 }
 
 .main-header__info__work {
     color: #c02169;
-    transition-duration: 0.5s;
+    letter-spacing: 1px;
 }
 
-.main-header__info__work:focus {
-    /* color: #808eb8; */
-    display: visible;
-    width: 164px;
-    height: 70px;
-    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
-    border: 1px solid slategray;
-    border-radius: 3px;
-    position: absolute;
-    z-index: 111;
-    background: #fff;
-    left: 915px;
-    top: 77px;
+.main-header__info__work:hover+.dropdown__schedule {
+    left: 79%;
 }
 
-.schedule_dropped:hover {
-    display: visible;
-    width: 164px;
-    height: 70px;
-    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
-    border: 1px solid slategray;
-    border-radius: 3px;
-    position: absolute;
-    z-index: 111;
-    background: #fff;
-    left: 915px;
-    top: 77px;
-}
-
-.dropdown__shedule {
-    display: none;
-    width: 164px;
-    height: 70px;
-    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
-    border: 1px solid slategray;
-    border-radius: 3px;
-    position: absolute;
-    z-index: 1;
-    background: #fff;
-    left: 930px;
-    top: 77px;
-}
-
-.dropdown__shedule:before {
+.dropdown__schedule {
+    margin: 0;
     display: block;
+    width: 164px;
+    height: 70px;
+    box-shadow: 0 0 10px #ced5e2;
+    border: 1px solid #ced5e2;
+    border-radius: 3px;
+    position: absolute;
+    background: #fff;
+    left: -9999px;
+    top: 65px;
+}
+
+/* .dropdown__schedule::after {
+    content: '';
+    display: block;
+    height: 25px;
+    position: absolute;
+    top: -23px;
     left: 0;
     right: 0;
-    top: 75px;
-    height: 30px;
-    position: absolute;
-    border: 2px solid yellow;
-}
+} */
 
 .dropdown__schedule_triangle {
     width: 18px;
     height: 18px;
-    border-right: 1px solid slategray;
-    border-bottom: 1px solid slategray;
+    border-right: 1px solid #ced5e2;
+    ;
+    border-bottom: 1px solid #ced5e2;
+    ;
     position: relative;
-    left: 130px;
+    left: 140px;
     top: -10px;
     background: #fff;
-    /* transform: rotate(225deg); */
+    transform: rotate(225deg);
 }
 
 .dropdown__list {
@@ -120,7 +97,6 @@
     font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 14px;
-    padding-top: 17px;
     line-height: 18px;
 }
 

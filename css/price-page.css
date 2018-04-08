@@ -4,12 +4,18 @@
 @import url('/css/menu/menu.css');
 @import url('/css/section-price/price-block.css');
 @import url('/css/footer/footer.css');
+
+.main {
+    max-width: 83%;
+}
+
 .title {
-    margin-top: 13px;
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
 }
 
 .main-header {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .partners-block__list {

@@ -58,9 +58,8 @@ body {
 }
 
 .main {
-    max-width: 880px;
+    max-width: 80%;
     float: left;
-    margin-left: 75px;
 }
 
 .title {

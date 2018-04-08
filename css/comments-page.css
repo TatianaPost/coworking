@@ -9,6 +9,7 @@
 @import url('/css/banner/banner_middle.css');
 .title {
     margin-top: 13px;
+    margin-bottom: 0;
 }
 
 .main-header {
@@ -21,4 +22,14 @@
 
 .pagination {
     margin-bottom: 50px;
+}
+
+.lastnews {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lastnews__block-content {
+    float: right;
+    max-width: 78%;
 }

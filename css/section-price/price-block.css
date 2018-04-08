@@ -1,15 +1,21 @@
+.price {
+    width: 100%;
+}
 .price__list {
     padding-left: 0;
 }
 
 .price__item {
-    margin-right: 35px;
+    margin-left: 45px;
     list-style: none;
     display: inline-block;
     width: 252px;
     margin-top: 0;
     margin-bottom: 35px;
     vertical-align: top;
+}
+.price__list:first-child {
+    margin-left: -45px;
 }
 
 .price__item-block__img {
@@ -20,7 +26,7 @@
 .opacity__bg {
     background-color: rgb(39, 39, 62);
     opacity: 0.851;
-    height: 100%;
+    height: 100%; 
     width: 100%;
     border-radius: 5px;
     position: relative;

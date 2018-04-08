@@ -8,9 +8,9 @@
 }
 
 .banner__container {
-    width: 65%;
+    width: 62%;
     margin: 0 auto;
-    padding: 45px 0 5px 0;
+    padding: 45px 0 5px 7px;
 }
 
 .banner__container__text {

@@ -1,6 +1,7 @@
 .lastnews {
     margin-top: 58px;
     margin-bottom: 30px;
+    /* padding: 1px; */
 }
 
 .lastnews__list-block {
@@ -41,12 +42,15 @@
     font-weight: 300;
     font-size: 18px;
     color: #221f1f;
+    float: right;
+    width: 78%;
 }
 
 .lastnews__content-data {
     margin-top: 10px;
     color: #737272;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 300;
     margin-bottom: 0;
 }
 
@@ -60,7 +64,8 @@
 }
 
 .lastnews__content-text {
-    font-size: 15px;
-    line-height: 1.9em;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
     margin: 0;
 }

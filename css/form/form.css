@@ -1,11 +1,16 @@
+.form-adding {
+    width: 100%;
+}
+
+
 .form-adding__block {
-    width: 705px;
+
+    width: 70%;
     background-color: #f5f5f5;
-    height: 430px;
+    min-height: 430px;
     border-radius: 5px;
-    margin-left: 200px;
-    margin-bottom: 50px;
-    margin-top: 57px;
+    margin: 57px auto 57px auto;
+    padding-left: 20px;
 }
 
 .form-adding-heading {
@@ -63,6 +68,7 @@
     resize: none;
     outline: none;
 }
+
 .form-adding__textarea:focus {
     border: 1px solid #ec1e79;
 }
