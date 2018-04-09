@@ -97,7 +97,7 @@
     height: 25px;
     padding-top: 3px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     color: #000;
     background-position: -85px -4px;
 }
@@ -127,7 +127,7 @@
     height: 25px;
     padding-top: 3px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     color: #000;
     background-position: -137px -4px;
 }
