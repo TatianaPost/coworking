@@ -64,7 +64,7 @@
     width: 25px;
     height: 25px;
     display: block;
-    background: url('/img/social/social_sprite.png') 0px 0px no-repeat;
+    background: url('../../img/social/social_sprite.png') 0px 0px no-repeat;
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;

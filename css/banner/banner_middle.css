@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 175px;
     background-color: #27273e;
-    background-image: url('/img/banners/Group 1.png');
+    background-image: url('../../img/banners/Group 1.png');
     margin-bottom: 57px;
     overflow: hidden;
 }

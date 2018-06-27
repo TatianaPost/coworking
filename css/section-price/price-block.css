@@ -58,32 +58,32 @@
 }
 
 .bg1 {
-    background-image: url('/img/price/bg1.jpg');
+    background-image: url('../../img/price/bg1.jpg');
     border-radius: 5px;
 }
 
 .bg2 {
-    background-image: url('/img/price/bg2.jpg');
+    background-image: url('../../img/price/bg2.jpg');
     border-radius: 5px;
 }
 
 .bg3 {
-    background-image: url('/img/price/bg3.jpg');
+    background-image: url('../../img/price/bg3.jpg');
     border-radius: 5px;
 }
 
 .bg4 {
-    background-image: url('/img/price/bg4.jpg');
+    background-image: url('../../img/price/bg4.jpg');
     border-radius: 5px;
 }
 
 .bg5 {
-    background-image: url('/img/price/bg5.jpg');
+    background-image: url('../../img/price/bg5.jpg');
     border-radius: 5px;
 }
 
 .bg6 {
-    background-image: url('/img/price/bg6.jpg');
+    background-image: url('../../img/price/bg6.jpg');
     border-radius: 5px;
 }
 
