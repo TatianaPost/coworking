@@ -3,7 +3,7 @@
 
 .wrapper__intro {
     color: #5dd1f8;
-    background: url("../../img/background/intro.jpg") center center no-repeat;
+    background: url("../img/background/intro.jpg") center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
