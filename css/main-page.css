@@ -1,8 +1,8 @@
-@import url('./fonts/fonts.css');
-@import url('./general/general.css');
-@import url('/header/header.css');
-@import url('/menu/menu.css');
-@import url('/section-peculiarity/peculiarity-block.css');
-@import url('/section-lastnews/lastnews-block.css');
-@import url('/pagination/pagination.css');
-@import url('/footer/footer.css');
+@import url('fonts/fonts.css');
+@import url('general/general.css');
+@import url('header/header.css');
+@import url('menu/menu.css');
+@import url('section-peculiarity/peculiarity-block.css');
+@import url('section-lastnews/lastnews-block.css');
+@import url('pagination/pagination.css');
+@import url('footer/footer.css');

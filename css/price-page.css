@@ -1,9 +1,9 @@
-@import url('/css/fonts/fonts.css');
-@import url('/css/general/general.css');
-@import url('/css/header/header.css');
-@import url('/css/menu/menu.css');
-@import url('/css/section-price/price-block.css');
-@import url('/css/footer/footer.css');
+@import url('fonts/fonts.css');
+@import url('general/general.css');
+@import url('header/header.css');
+@import url('menu/menu.css');
+@import url('section-price/price-block.css');
+@import url('footer/footer.css');
 .main {
     max-width: 83%;
 }
